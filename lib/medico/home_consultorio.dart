@@ -161,7 +161,7 @@ class HomeConsultorioScreen extends StatelessWidget {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) => EditarConsultorioScreen(
-                                      consultorio: c, // ← PARÁMETRO OBLIGATORIO
+                                      consultorio: c, 
                                     ),
                                   ),
                                 );
