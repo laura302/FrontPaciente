@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:movil_/medico/main_layout.dart';
 import 'theme/app_theme.dart';
-import 'Paciente/main_layout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: const MainLayout(),
+      home: const MainMedicoLayout(), 
     );
   }
 }
